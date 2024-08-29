@@ -55,7 +55,6 @@ function processNames() {
   document.getElementById("startButton").style.display = "none";
 
   // 생성 버튼과 다시하기 버튼을 보이게 합니다.
-  document.getElementById("generateButton").style.display = "block";
   document.getElementById("restartButton").style.display = "block";
 
   // 팀 생성 함수 호출
@@ -136,10 +135,6 @@ function generatePairs(maleNames, femaleNames) {
 
     pairsContainer.appendChild(pairBlock);
   }
-
-  // 생성 버튼을 숨깁니다.
-  const generateButton = document.getElementById("generateButton");
-  generateButton.style.display = "none";
 }
 
 // 다시하기 함수
@@ -156,7 +151,6 @@ function restart() {
   document.getElementById("startButton").style.display = "inline";
 
   // 생성 버튼과 다시하기 버튼을 숨깁니다.
-  document.getElementById("generateButton").style.display = "none";
   document.getElementById("restartButton").style.display = "none";
 
   // 블록이 숨겨졌으니 이제 블록을 지웁니다.

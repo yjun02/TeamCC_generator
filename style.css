@@ -30,7 +30,7 @@ body {
 }
 
 .title {
-  font-size: 70px;
+  font-size: 65px;
   font-weight: normal;
   margin-bottom: 30px;
 }
@@ -114,7 +114,6 @@ textarea {
   height: 120px;
   margin-bottom: 20px;
   border-radius: 10px;
-  box-sizing: unset;
 }
 
 #restartButton {
